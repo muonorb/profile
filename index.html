@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Akashdeep Gangatkar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════ SIDEBAR -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-top">
+    <div class="sidebar-brand">
+      <div class="brand-avatar">AG</div>
+      <span class="brand-name">Akashdeep</span>
+    </div>
+    <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+
+  <nav class="sidebar-nav">
+    <p class="nav-label">Portfolio</p>
+    <a href="#" class="nav-item active" data-section="home">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      Home
+    </a>
+    <a href="#" class="nav-item" data-section="about">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      About
+    </a>
+    <a href="#" class="nav-item" data-section="experience">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+      Experience
+    </a>
+    <a href="#" class="nav-item" data-section="projects">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+      Projects
+    </a>
+    <a href="#" class="nav-item" data-section="skills">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+      Skills
+    </a>
+    <a href="#" class="nav-item" data-section="contact">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      Contact
+    </a>
+
+    <p class="nav-label" style="margin-top: 1.5rem;">Ask AI</p>
+    <a href="#" class="nav-item" data-section="chat" id="openChatNav">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      Chat with AI
+    </a>
+  </nav>
+
+  <div class="sidebar-footer">
+    <a href="resume.pdf" target="_blank" class="resume-btn">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Resume
+    </a>
+  </div>
+</aside>
+
+<!-- ═══════════════════════════════════════════════════════ MAIN -->
+<main class="main" id="main">
+
+  <!-- ── HOME ─────────────────────────────────────────────────── -->
+  <section class="page active" id="page-home">
+    <div class="home-wrap">
+      <div class="home-hero">
+        <div class="home-avatar">AG</div>
+        <h1 class="home-name">Akashdeep Gangatkar</h1>
+        <p class="home-title">MS Artificial Intelligence · Northeastern University</p>
+        <p class="home-tagline">
+          Building and evaluating intelligent systems across research,<br>AI engineering, and scalable software.
+        </p>
+        <div class="home-links">
+          <a href="mailto:akashgangatkaroo@gmail.com" class="home-link-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Email
+          </a>
+          <a href="https://github.com/muonorb" target="_blank" class="home-link-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/akashdeep-gangatkar-m" target="_blank" class="home-link-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <!-- Chat prompt on home -->
+      <div class="home-chat-prompt">
+        <p class="chat-prompt-label">Ask me anything</p>
+        <div class="chat-input-bar home-input-bar">
+          <input
+            type="text"
+            id="homeChatInput"
+            class="chat-input"
+            placeholder="What projects has Akashdeep worked on?"
+            autocomplete="off"
+          />
+          <button class="send-btn" id="homeSendBtn" aria-label="Send">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </div>
+        <div class="chat-suggestions">
+          <button class="suggestion-chip" data-q="What is Akashdeep's educational background?">Education</button>
+          <button class="suggestion-chip" data-q="Tell me about Akashdeep's projects">Projects</button>
+          <button class="suggestion-chip" data-q="What are Akashdeep's technical skills?">Skills</button>
+          <button class="suggestion-chip" data-q="Is Akashdeep open to job opportunities?">Opportunities</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ─────────────────────────────────────────────────── -->
+  <section class="page" id="page-about">
+    <div class="content-wrap">
+      <h2 class="page-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="lead-text">
+            I am a Master's student in Artificial Intelligence at Northeastern University with experience in applied machine learning, research prototyping, and software development.
+          </p>
+          <p class="body-text">
+            My work focuses on translating research ideas into practical systems, evaluating model performance, and building reliable applications across constrained and scalable environments.
+          </p>
+          <div class="focus-pills">
+            <span class="pill">Research & Applied ML</span>
+            <span class="pill">Machine Learning Evaluation</span>
+            <span class="pill">Embedded & Edge AI</span>
+            <span class="pill">AI / ML Engineering</span>
+            <span class="pill">Software Development</span>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="info-card">
+            <h3 class="card-label">Education</h3>
+            <p class="card-degree">M.S. Artificial Intelligence</p>
+            <p class="card-school">Northeastern University, USA</p>
+            <p class="card-year">2026 – Present</p>
+          </div>
+          <div class="info-card" style="margin-top: 1rem;">
+            <h3 class="card-label">Status</h3>
+            <p class="card-school">Open to research internships, AI/ML engineering, and software roles.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ────────────────────────────────────────────── -->
+  <section class="page" id="page-experience">
+    <div class="content-wrap">
+      <h2 class="page-title">Research Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="exp-role">Research Intern</h3>
+              <span class="exp-company">CSIR National Aerospace Laboratories</span>
+            </div>
+            <ul class="exp-points">
+              <li>Conducted literature review and implemented an experimental MVP for assistive navigation systems.</li>
+              <li>Evaluated feasibility of embedded ML solutions under real-world compute and memory constraints.</li>
+              <li>Focused on translating research methodology into testable, practical prototypes.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ──────────────────────────────────────────────── -->
+  <section class="page" id="page-projects">
+    <div class="content-wrap">
+      <h2 class="page-title">Projects</h2>
+
+      <p class="section-label">Research & Applied ML</p>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <h3 class="project-name">Obstacle Detection System</h3>
+          <p class="project-desc">Real-time obstacle detection for visually impaired users using TinyML and TensorFlow Lite on Raspberry Pi.</p>
+          <div class="project-tags">
+            <span class="tag">TinyML</span><span class="tag">TensorFlow Lite</span><span class="tag">Edge AI</span>
+          </div>
+          <a class="project-link" href="https://github.com/muonorb/DocSearch-QueryRank" target="_blank" rel="noreferrer">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <h3 class="project-name">Weather Prediction</h3>
+          <p class="project-desc">Compared classical ML models using cross-validation and evaluation metrics for forecasting tasks.</p>
+          <div class="project-tags">
+            <span class="tag">Scikit-learn</span><span class="tag">XGBoost</span>
+          </div>
+          <a class="project-link" href="https://github.com/muonorb/Weather-Predictor" target="_blank" rel="noreferrer">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <h3 class="project-name">DocSearch Query Rank</h3>
+          <p class="project-desc">A document retrieval and ranking system that indexes research abstracts, applies TF-IDF and BM25 ranking, and evaluates performance using TREC metrics.</p>
+          <div class="project-tags">
+            <span class="tag">TF-IDF</span><span class="tag">BM25</span><span class="tag">TREC</span><span class="tag">SciPy</span>
+          </div>
+          <a class="project-link" href="https://github.com/muonorb/DocSearch-QueryRank" target="_blank" rel="noreferrer">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <h3 class="project-name">Recommendation System</h3>
+          <p class="project-desc">Built using collaborative filtering and embedding-based approaches, evaluated with ranking metrics such as Precision@K and NDCG.</p>
+          <div class="project-tags">
+            <span class="tag">Collaborative Filtering</span><span class="tag">Surprise</span><span class="tag">Implicit</span>
+          </div>
+          <a class="project-link" href="https://github.com/muonorb/Recommendation-System" target="_blank" rel="noreferrer">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+
+        <div class="project-card featured">
+          <div class="featured-badge">Featured</div>
+          <h3 class="project-name">RAG Research Agent</h3>
+          <p class="project-desc">A fully local, privacy-preserving AI agent that lets you query academic PDF papers in plain English. Built on a RAG architecture with an agentic ReAct reasoning loop — PDFs are parsed, chunked, embedded locally, and stored in a vector database. Returns cited answers with source file and page number. No API keys, no data leaves your machine.</p>
+          <div class="project-tags">
+            <span class="tag">LangChain</span><span class="tag">Ollama</span><span class="tag">ChromaDB</span><span class="tag">RAG</span><span class="tag">ReAct Agent</span>
+          </div>
+          <a class="project-link" href="https://github.com/muonorb/rag-research-agent" target="_blank" rel="noreferrer">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <p class="section-label" style="margin-top: 2rem;">AI & Software Engineering</p>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <h3 class="project-name">Housing Price Predictor</h3>
+          <p class="project-desc">Regression-based system with feature engineering and hyperparameter optimization.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span><span class="tag">ML</span><span class="tag">Regression</span>
+          </div>
+          <a class="project-link" href="https://github.com/muonorb/House-Price-Predictor" target="_blank" rel="noreferrer">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+
+        <div class="project-card">
+          <h3 class="project-name">Samrakshan – Disaster Rescue</h3>
+          <p class="project-desc">Full-stack Flutter application enabling real-time SOS alerts and emergency workflows.</p>
+          <div class="project-tags">
+            <span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">Full-stack</span>
+          </div>
+          <a class="project-link" href="https://github.com/muonorb/Disaster-Rescue-application-Flutter" target="_blank" rel="noreferrer">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ────────────────────────────────────────────────── -->
+  <section class="page" id="page-skills">
+    <div class="content-wrap">
+      <h2 class="page-title">Skills & Proficiencies</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3 class="skill-cat">Languages</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>MicroPython</span><span>C</span><span>C++</span>
+            <span>HTML</span><span>R</span><span>SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="skill-cat">Frameworks</h3>
+          <div class="skill-tags">
+            <span>Scikit-learn</span><span>PyTorch</span><span>TensorFlow</span><span>Keras</span><span>Django</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="skill-cat">Tools</h3>
+          <div class="skill-tags">
+            <span>Jupyter</span><span>Git/GitHub</span><span>FastAPI</span><span>Docker</span>
+            <span>Firebase</span><span>Google Colab</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="skill-cat">Development</h3>
+          <div class="skill-tags">
+            <span>Full-stack</span><span>Flutter</span><span>REST API</span><span>Microservices</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="skill-cat">Embedded Systems</h3>
+          <div class="skill-tags">
+            <span>Arduino</span><span>Raspberry Pi</span><span>IoT</span><span>x86/x64</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="skill-cat">Cloud & Platforms</h3>
+          <div class="skill-tags">
+            <span>AWS EC2</span><span>S3</span><span>ECS</span><span>Azure</span><span>MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="skill-cat">Environments</h3>
+          <div class="skill-tags">
+            <span>Linux (Ubuntu, Kali)</span><span>Raspberry Pi OS</span><span>Windows</span><span>iOS</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ───────────────────────────────────────────────── -->
+  <section class="page" id="page-contact">
+    <div class="content-wrap">
+      <h2 class="page-title">Let's build something</h2>
+      <p class="lead-text">Open to research internships, AI/ML engineering, and software roles.</p>
+
+      <div class="contact-grid">
+        <div class="contact-actions">
+          <a href="mailto:akashgangatkaroo@gmail.com" class="contact-btn primary">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Email Me
+          </a>
+          <a href="https://www.linkedin.com/in/akashdeep-gangatkar-m/" target="_blank" class="contact-btn ghost">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            Connect on LinkedIn
+          </a>
+        </div>
+
+        <div class="contact-info-card">
+          <div class="contact-row">
+            <span class="contact-label">Phone</span>
+            <a href="tel:+12066618873" class="contact-value">+1 (206) 661 8873</a>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">Email</span>
+            <a href="mailto:akashgangatkaroo@gmail.com" class="contact-value">akashgangatkaroo@gmail.com</a>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">GitHub</span>
+            <a href="https://github.com/muonorb" target="_blank" class="contact-value">muonorb</a>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/akashdeep-gangatkar-m/" target="_blank" class="contact-value">Akashdeep Gangatkar M</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CHAT ──────────────────────────────────────────────────── -->
+  <section class="page" id="page-chat">
+    <div class="chat-wrap">
+      <div class="chat-messages" id="chatMessages">
+        <div class="chat-message assistant">
+          <div class="msg-avatar">AG</div>
+          <div class="msg-bubble">
+            Hi! I'm Akashdeep's AI assistant. Ask me anything about his background, projects, skills, or experience.
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-input-area">
+        <div class="chat-input-bar">
+          <input
+            type="text"
+            id="chatInput"
+            class="chat-input"
+            placeholder="Ask about Akashdeep..."
+            autocomplete="off"
+          />
+          <button class="send-btn" id="sendBtn" aria-label="Send">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </div>
+        <p class="chat-footer-note">Powered by Groq · llama-3.3-70b</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ═══════════════════════════════════════════════════════ MOBILE NAV -->
+<button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</button>
+
+<script>
+// ── Navigation ──────────────────────────────────────────────────────────────
+const navItems = document.querySelectorAll('.nav-item');
+const pages    = document.querySelectorAll('.page');
+
+function showPage(sectionId) {
+  pages.forEach(p => p.classList.remove('active'));
+  navItems.forEach(n => n.classList.remove('active'));
+
+  const page = document.getElementById('page-' + sectionId);
+  if (page) page.classList.add('active');
+
+  const navItem = document.querySelector(`.nav-item[data-section="${sectionId}"]`);
+  if (navItem) navItem.classList.add('active');
+
+  // Close sidebar on mobile after nav
+  if (window.innerWidth < 768) {
+    document.getElementById('sidebar').classList.remove('open');
+  }
+}
+
+navItems.forEach(item => {
+  item.addEventListener('click', e => {
+    e.preventDefault();
+    showPage(item.dataset.section);
+  });
+});
+
+// Mobile menu
+document.getElementById('mobileMenuBtn').addEventListener('click', () => {
+  document.getElementById('sidebar').classList.toggle('open');
+});
+
+// ── Chat Logic ───────────────────────────────────────────────────────────────
+const GROQ_API_KEY = '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';
+const GROQ_MODEL   = 'llama-3.3-70b-versatile';
+const SYSTEM_PROMPT = `You are the personal AI assistant on Akashdeep Gangatkar's portfolio website.
+Your job is to answer visitors' questions about Akashdeep in a helpful, professional, and friendly tone.
+Only answer based on the information provided below. If something is not covered, say you don't have that detail and suggest they email Akashdeep directly at akashgangatkaroo@gmail.com.
+Keep answers concise and to the point. Do not make up or assume any information.
+
+IMPORTANT: Akashdeep's resume is available for download directly on this website. If anyone asks for his resume, CV, or to download his resume, tell them they can download it using the "Download Resume" button on this page, or directly at: /resume.pdf
+
+AKASHDEEP'S PROFILE:
+ABOUT AKASHDEEP GANGATKAR
+=========================
+Full Name: Akashdeep Gangatkar
+Email: akashgangatkaroo@gmail.com | Phone: +1 (206) 661 8873
+GitHub: https://github.com/muonorb | LinkedIn: https://www.linkedin.com/in/akashdeep-gangatkar-m/
+
+PROFESSIONAL SUMMARY
+Master's student in Artificial Intelligence at Northeastern University with hands-on experience in applied machine learning, agentic AI systems, edge AI deployment.
+
+EDUCATION
+1. MS in Artificial Intelligence — Northeastern University, Seattle (Jan 2026–Present)
+2. BE in AI & ML — Don Bosco Institute of Technology, India (2020–2024)
+
+EXPERIENCE
+Research Intern — CSIR-National Aerospace Laboratories (Sept–Oct 2023)
+- Real-time assistive navigation for visually impaired users using TensorFlow Lite on Raspberry Pi/Arduino (15 FPS, <100ms latency)
+- Quantization & pruning: 65% model size reduction, 89% accuracy on 2GB RAM devices
+
+PROJECTS
+1. Agentic RAG Framework — LangChain, Ollama, ChromaDB, PyMuPDF, Streamlit
+2. Information Retrieval & Recommendation Systems — BM25, TF-IDF, neural embeddings (0.72 MAP@10)
+3. AI-Assisted Exam Evaluation — BERT-based grading, 85-90% agreement with teachers
+4. SAMRAKSHAN — State-funded Flutter/Firebase disaster rescue app, top 15/200+ at KSCST 2024
+5. Obstacle Detection — TinyML on Raspberry Pi for visually impaired users
+6. Weather Prediction — classical ML models with cross-validation
+7. Housing Price Predictor — regression with feature engineering
+
+SKILLS
+Python, SQL, C/C++, FastAPI, Flask, PyTorch, TensorFlow Lite, Hugging Face, LangChain, RAG, ChromaDB, Pinecone, AWS (EC2/S3), Docker, Firebase, Flutter, Arduino, Raspberry Pi
+
+AVAILABILITY: Open to research internships, AI/ML engineering roles, and software development roles.`;
+
+function appendMessage(role, text) {
+  const container = document.getElementById('chatMessages');
+  const div = document.createElement('div');
+  div.className = `chat-message ${role}`;
+
+  if (role === 'assistant') {
+    div.innerHTML = `
+      <div class="msg-avatar">AG</div>
+      <div class="msg-bubble">${text}</div>
+    `;
+  } else {
+    div.innerHTML = `<div class="msg-bubble user-bubble">${text}</div>`;
+  }
+
+  container.appendChild(div);
+  container.scrollTop = container.scrollHeight;
+  return div;
+}
+
+function setLoading(isLoading) {
+  const btn = document.getElementById('sendBtn');
+  btn.disabled = isLoading;
+  btn.innerHTML = isLoading
+    ? `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="spin"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>`
+    : `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>`;
+}
+
+async function sendQuestion(question) {
+  if (!question.trim()) return;
+
+  // Switch to chat page
+  showPage('chat');
+
+  appendMessage('user', question);
+  setLoading(true);
+
+  // Typing indicator
+  const typingDiv = appendMessage('assistant', '<span class="typing-dots"><span>.</span><span>.</span><span>.</span></span>');
+
+  try {
+    const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${GROQ_API_KEY}`
+      },
+      body: JSON.stringify({
+        model: GROQ_MODEL,
+        messages: [
+          { role: 'system', content: SYSTEM_PROMPT },
+          { role: 'user',   content: question }
+        ],
+        temperature: 0.7,
+        max_tokens: 512
+      })
+    });
+
+    const data = await res.json();
+    const answer = data.choices?.[0]?.message?.content || data.error?.message || 'No response received.';
+    typingDiv.querySelector('.msg-bubble').textContent = answer.trim();
+
+  } catch (err) {
+    typingDiv.querySelector('.msg-bubble').textContent = 'Could not reach Groq API. Check your internet connection.';
+  } finally {
+    setLoading(false);
+  }
+}
+
+// Chat page input
+document.getElementById('sendBtn').addEventListener('click', () => {
+  const input = document.getElementById('chatInput');
+  const q = input.value.trim();
+  if (q) { input.value = ''; sendQuestion(q); }
+});
+
+document.getElementById('chatInput').addEventListener('keydown', e => {
+  if (e.key === 'Enter') {
+    const input = e.target;
+    const q = input.value.trim();
+    if (q) { input.value = ''; sendQuestion(q); }
+  }
+});
+
+// Home page input
+document.getElementById('homeSendBtn').addEventListener('click', () => {
+  const input = document.getElementById('homeChatInput');
+  const q = input.value.trim();
+  if (q) { input.value = ''; sendQuestion(q); }
+});
+
+document.getElementById('homeChatInput').addEventListener('keydown', e => {
+  if (e.key === 'Enter') {
+    const input = e.target;
+    const q = input.value.trim();
+    if (q) { input.value = ''; sendQuestion(q); }
+  }
+});
+
+// Suggestion chips
+document.querySelectorAll('.suggestion-chip').forEach(chip => {
+  chip.addEventListener('click', () => sendQuestion(chip.dataset.q));
+});
+</script>
+
+</body>
+</html>
